@@ -47,6 +47,6 @@ RUN mkdir -p /app/data/storage
 
 VOLUME ["/app/data/storage"]
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["pnpm", "start"]
